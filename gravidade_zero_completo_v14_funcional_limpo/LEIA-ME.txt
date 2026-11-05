@@ -1,0 +1,20 @@
+GRAVIDADE ZERO - V14 FUNCIONAL LIMPO
+
+Versão corrigida com mapa simples, completo e eficiente.
+
+Fluxo do jogo:
+1. Coletar cartão azul.
+2. Usar Terminal A para abrir a Porta A.
+3. Coletar 3 células amarelas.
+4. Usar o gerador para ligar a energia.
+5. Entrar no setor de segurança.
+6. Usar Terminal B para desligar o laser.
+7. Passar pelo laser desligado e pegar o código roxo.
+8. Usar Terminal C para liberar a saída.
+9. Entrar na saída e apertar E.
+
+Correção principal:
+- O laser agora fica depois do Terminal B.
+- Ele não bloqueia a porta de energia.
+- As únicas colisões internas são barreiras visíveis: Porta A, Sem Energia e Laser.
+- Todo o piso desenhado é caminhável. Não existe parede invisível no caminho.
